@@ -1,0 +1,23 @@
+ #python train.py --data data.yml --weights yolov5s.pt --batch-size 8 --name Model --img 640 --epoch 150
+ #python export.py --weights runs/train/Models/weights/best.pt --include onnx --simplify --opset 12
+train: data2000/Annotations/train
+val: data2000/Annotations/test
+nc: 18
+names: ['8', 
+        '9', 
+        '7', 
+        'Alineación A-1', 
+        '6',
+        'Socavado B-3', 
+        '5',
+        '9.5', 
+        'Socavado A-2', 
+        '8.5',
+        '7.5', 
+        'Poro Tipo B-2', 
+        'Poro Tipo A-6', 
+        'Falta de Fusión C-2',
+        'Falta de Fusión B-5', 
+        'Grietas Superficiales C-1',
+        '10',
+        '6.5' ]

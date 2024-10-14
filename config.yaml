@@ -1,0 +1,63 @@
+credentials:
+  usernames:
+    casho:
+      email: casho.gomez@gmail.com
+      failed_login_attempts: 0
+      name: Casimiro Gómez
+      logged_in: False
+      password: $2b$12$3dR56Iej8F4SeLHErqS1peAgdKpWiHA6Q.iDvN71uORMa34AKvVBG
+    solana:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      name: Estructuras Solana
+      logged_in: False 
+      password: $2b$12$Q5ewwTGyU2AkaniNCKPEdu95ojh6JRHiP0feoC4mYJpCu/tYnV5YW 
+    david:
+      email: ddelarosa@emetalicas.com.mx
+      failed_login_attempts: 0
+      name: David de la Rosa
+      logged_in: False 
+      password: $2b$12$44nAJCFNSQNSHahduHdgEeK65Z9vvYphnAql/m9HFIHIpk2AAoo/2
+    julio:
+      email: csanchez@emetalicas.com.mx
+      failed_login_attempts: 0
+      name: Julio Sanchez
+      logged_in: False
+      password: $2b$12$AMPCBYGC.uvLIzDXhlkAr.XpMBUx4m5E8uiXQp35QfkmETvBNejEe
+    paola:
+      email: calidadempsa@emetalicas.com.mx
+      failed_login_attempts: 0
+      name: Paola Cariño
+      logged_in: False
+      password: $2b$12$J9lMYvoFnZucBvkgDbjLHu3hOlvGXwSrlnGJ1YTWgBs8AXjxalgDe
+    victor:
+      email: vrendon@emetalicas.com.mx
+      failed_login_attempts: 0
+      name: Victor Rendon
+      logged_in: False
+      password: $2b$12$NiasoduPyif3WcUqWxbXCe1AFdmDpvQpDa0M3FwbRHa54pO..b8.C
+    jonathan:
+      email: jehlinger@emetalicas.com.mx
+      failed_login_attempts: 0
+      name: Jonathan Ehlinger
+      logged_in: False
+      password: $2b$12$lNpAuGssIGxhGb7Tro4hnuzwadk.yuShfVtY9qRm.938s9pwWaB4S
+    javier:
+      email: javier@solana.mx
+      failed_login_attempts: 0
+      name: Javier Solana
+      logged_in: False
+      password: $2b$12$bsVJTwf3qn81Q1pv/UECzevIPzabGhKS53Qlei18PzvJ1KMsx9Dwu
+    user:
+      email: usuarios@test.com
+      failed_login_attempts: 0
+      name: Usuario Usuario
+      logged_in: False
+      password: $2b$12$Z0jDseyxom2Mt33aiWnA1O2FqH4UMyGXdzbuRF5SDw0XNA3uW1VES
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@gmail.com

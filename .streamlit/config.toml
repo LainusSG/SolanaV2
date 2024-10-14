@@ -1,0 +1,11 @@
+# .streamlit/config.toml
+
+[theme]
+base="light"
+primaryColor="#ffa34b"
+backgroundColor="#fef8ef"
+secondaryBackgroundColor="#f5aa57"
+
+[server]
+sslCertFile = '.streamlit/soldadura.pem'
+sslKeyFile = '.streamlit/soldadura.key'
